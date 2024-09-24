@@ -1,0 +1,90 @@
+body{
+	margin: 0;
+}
+.side-bar{
+	width: 100%;
+	height: 1100px;
+	background-color: coral;
+	border: 1px solid;
+}
+.menu{
+	width: 300px;
+	height: 100%;
+	padding: 15px 15px;
+	background: rgba(255, 255, 255, 0.2);
+	backdrop-filter: blur(5px);
+}
+.user{
+}
+.user ul{
+	margin-left: 15px;
+}
+.user ul li{
+	font-size: 35px;
+	list-style: none;
+	display: block;
+}
+.user ul li:hover i{
+	cursor: pointer;
+}
+.user p{
+	margin-left: 100px;
+	margin-top: 10px;
+	font-size: 25PX;
+	font-weight: 300PX;
+}
+
+.top{
+	padding: 60px 0;
+}
+.wrapper{
+	box-sizing: border-box;
+	overflow: hidden;
+	width: 90%;
+	margin: 0 auto;
+	border: 5px solid red;
+	background-color: grey;
+}
+.col-2{
+	padding-top: 10px;
+	width: 183px;
+	height: 175px;
+	float: left;
+	border: 5px solid yellow;
+	font-size: 50px;
+	text-align: center;
+	color: black;
+}
+.name p{
+	font-size: 25px;
+	font-weight: 400;
+}
+/*icons start*/
+.icons{
+	padding: 50px 0;
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 40px 0;
+	border: 5px solid green;
+}
+.col-1{
+	margin-left: 22px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	font-size: 40px;
+	border: 3px solid red;
+	text-align: center;
+	color: gold;
+}
+h1{
+	font-size: 50px;
+	padding-bottom: 20px;
+	color: blue;
+}
+/*icons end*/
